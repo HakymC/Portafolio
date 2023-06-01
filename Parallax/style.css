@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Patua One', cursive;
+}
+
+body{
+    min-height: 100vh;
+    overflow-x: hidden;
+    background-color: rgb(127, 204, 252);
+}
+
+.encabezado{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    top:0;
+    left:0;
+    width: 100%;
+    padding: 30px 100px;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo{
+    margin-top: 10px;
+    font-size: 52px;
+    color: white;
+    pointer-events:none;
+}
+
+.opciones{
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    margin: 30px 40px;
+    border-radius: 20px;
+    width: 100px;
+    height: 35px;
+    padding: 5px 16px;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+.opciones:hover{
+    color: rgb(197, 0, 66);
+    background-color: white;
+}
+
+.parallax{
+    position: relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#texto{
+    position: absolute;
+    font-size:5em;
+    color:white;
+    text-shadow: 2px 2px 4px rgba(0,0,0, .2);
+    pointer-events: none;
+}
+
+.parallax img{
+    position: absolute;
+    top: 0;
+    left:0;
+    width:100%;
+    pointer-events: none;
+    height: 700px;
+}
+
+.lectura{
+    position: relative;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 4px rgba(0,0,0, .2);
+    padding: 100px;
+}
+
+.final{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size:10px;
+    margin-bottom: 15px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0,0,0, .2);
+}

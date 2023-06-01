@@ -1,0 +1,105 @@
+html{
+    box-sizing: border-box;
+    height: 100%;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0; 
+}
+
+
+body{
+    align-items: center;
+    background: linear-gradient(160deg, #f5dc4d, #6393c9);
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    font-display: swap;
+    height: inherit;
+    justify-content: center;
+}
+
+.wrapper{
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(35,35,35, 0.1);
+    color:#232323;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    background: rgba(214, 214, 214, 0.486);
+    border: 1px solid rgba(255,255,255,0.34);
+    flex-basis: 600px;
+    height:540px;
+    padding: 20px 35px;
+}
+
+.agregar{
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    border: 1px solid rgba(255 ,255 ,255, 0.01);
+    border-radius: 36px;
+    box-shadow: 0 40px 30px rgba(35,35,35,0.1);
+    flex-basis: 20%;
+    font-family: inherit;
+    font-size: 24px;
+    height:65px;
+    width: 65px;
+    color: #ffffff;
+    background: rgb(255, 40, 158);
+    margin-top: 30px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    font-family: sans-serif;
+}
+
+.agregar:hover{
+    background-color: rgb(255, 255, 255);
+    color:#000000;
+}
+
+.titulo{
+    text-align: center;
+}
+
+input[type=checkbox]:checked + label {
+    text-decoration: line-through;
+} 
+
+.caja{
+    margin-top: 8px;
+}
+
+label{
+    padding-left: 10px;
+}
+
+.texto{
+    margin-left: 25px;
+    margin-top: 8px;
+    box-shadow: 0 4px 30px rgba(122, 122, 122, 0.452);
+    color:#232323;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border: 1px solid rgba(255, 255, 255, 0.979);
+    border-radius: 15px;
+    background: rgba(236, 236, 236, 0.466);
+    height: 35px;
+    width: 300px;
+    padding: 3px 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.final{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    position: absolute;
+    bottom: 0;
+}
+
